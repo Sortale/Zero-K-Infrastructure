@@ -160,7 +160,7 @@ namespace PlasmaDownloader
                     }
                     string filename = bla.InternalName + ".sdz";
                     filename = filename.Replace("Zero-K ", "zk-");
-                    string url = "http://zk.repo.springrts.com/builds/" + filename;
+                    string url = "https://zero-k.info/game/" + filename;
 
                     var target = new Uri(url);
                     var filePath = Utils.MakePath(SpringPaths.WritableDirectory, "games", filename);
